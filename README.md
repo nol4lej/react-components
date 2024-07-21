@@ -11,6 +11,7 @@ Esta es una plantilla con componentes para proyectos de React con TypeScript, ut
 - **Autoprefixer**: Un plugin de PostCSS para añadir prefijos CSS automáticamente.
 - **PostCSS**: Una herramienta para transformar CSS con JavaScript.
 - **@types/node**: Proporciona definiciones de tipos para Node.js, permitiendo que TypeScript entienda las APIs y módulos de Node.js. Estas definiciones incluyen tipos para funciones y objetos como process, Buffer, fs (sistema de archivos), y más. En este caso para utilizar `path` y `__dirname`.
+- **Axios**: Librería para gestionar peticiones HTTP de manera sencilla.
 
 ## Requisitos
 
