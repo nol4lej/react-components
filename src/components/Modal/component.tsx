@@ -23,9 +23,7 @@ const Modal = ({ show, onClose, children }: ModalProps) => {
             <div className="fixed inset-0 z-[61] h-full w-full flex items-center justify-center">
 
                 {/* Overlay */}
-                <div className="fixed z-[60] top-0 left-0 w-full h-full bg-black opacity-50 flex items-center justify-center">
-                    <div className="absolute top-0 left-0 w-full h-full" onClick={onClose}></div>
-                </div>
+                <div className="fixed z-[60] inset-0 bg-black opacity-50" onClick={onClose}></div>
                 {/* End Overlay */}
 
                 <div className="rounded-lg shadow-lg z-[62] max-w-lg w-full max-h-95vh overflow-y-auto">
